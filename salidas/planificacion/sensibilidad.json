@@ -1,0 +1,32 @@
+{
+ "0.025": {
+  "fichas": 13684,
+  "celdas_con_ficha": 4583,
+  "por_especie": {
+   "papa": 4442,
+   "frijol": 3576,
+   "maiz": 3027,
+   "arveja": 2639
+  }
+ },
+ "0.05": {
+  "fichas": 13817,
+  "celdas_con_ficha": 4624,
+  "por_especie": {
+   "papa": 4487,
+   "frijol": 3609,
+   "maiz": 3051,
+   "arveja": 2670
+  }
+ },
+ "0.1": {
+  "fichas": 14010,
+  "celdas_con_ficha": 4705,
+  "por_especie": {
+   "papa": 4568,
+   "frijol": 3672,
+   "maiz": 3081,
+   "arveja": 2689
+  }
+ }
+}

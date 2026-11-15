@@ -1,0 +1,5 @@
+especie,familia,t_min,t_opt_min,t_opt_max,t_max,t_base_gdd,gdd_ciclo,ciclo_dias,kc_medio,fija_nitrogeno,fuente,estado
+maiz,Poaceae,10,18,33,47,10,1500,150,1.20,no,"Temperaturas: FAO Ecocrop (ficha Zea mays, id 2175); Kc: FAO-56; Tbase/GDD/ciclo: propios (ciclo dentro del rango Ecocrop 65-365 d)",TEMPERATURAS VERIFICADAS
+frijol,Fabaceae,10,15,20,27,10,900,110,1.15,si,"Temperaturas y ciclo 110 d: FAO Land & Water (Bean); Kc: FAO-56; GDD: propio",TEMPERATURAS VERIFICADAS
+papa,Solanaceae,3,12,20,28,7,1300,140,1.15,no,"Ciclo 140 d dentro del rango FAO (120-150 d medio); Kc: FAO-56; temperaturas propias (FAO da umbrales de tuberizacion, no equivalentes)",PRELIMINAR
+arveja,Fabaceae,10,17,17,23,4,1300,110,1.15,si,"Temperaturas: FAO Land & Water (Pea): min 10, optimo 17, max 23; ciclo 110 d dentro del rango FAO; Kc: FAO-56; GDD: propio",TEMPERATURAS VERIFICADAS

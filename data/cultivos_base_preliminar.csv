@@ -1,0 +1,5 @@
+especie,familia,t_min,t_opt_min,t_opt_max,t_max,t_base_gdd,gdd_ciclo,ciclo_dias,kc_medio,fija_nitrogeno,fuente,estado
+maiz,Poaceae,6,16,26,34,10,1500,150,1.20,no,FAO-56 (Kc); resto por validar,PRELIMINAR
+frijol,Fabaceae,8,16,24,32,10,900,110,1.15,si,FAO-56 (Kc); resto por validar,PRELIMINAR
+papa,Solanaceae,3,12,20,28,7,1300,140,1.15,no,FAO-56 (Kc); resto por validar,PRELIMINAR
+arveja,Fabaceae,2,10,18,26,4,1300,110,1.15,si,FAO-56 (Kc); resto por validar,PRELIMINAR
