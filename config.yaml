@@ -1,0 +1,33 @@
+# Región: Alto Cauca - Macizo Colombiano (aprox.). Ajustar tras confirmar polígono de la cuenca.
+region:
+  nombre: "Alto Cauca - Macizo Colombiano"
+  lat_min: 2.0
+  lat_max: 2.8
+  lon_min: -76.9
+  lon_max: -76.2
+power:
+  # NASA POWER (MERRA-2) tiene celdas de ~0.5 x 0.625 grados: se descargan nodos y se corrige por altitud.
+  nodo_paso_lat: 0.5
+  nodo_paso_lon: 0.625
+  inicio: 19810101
+  fin: 20251231
+  parametros: [T2M, T2M_MAX, T2M_MIN, PRECTOTCORR, RH2M, WS2M, ALLSKY_SFC_SW_DWN]
+  comunidad: AG
+correccion:
+  gradiente_termico_c_por_m: -0.0065   # estándar; calibrar con estaciones IDEAM
+  factor_precip: 1.0                   # calibrar con estaciones IDEAM
+linea_tiempo:
+  paso: quincenal          # 1-15 y 16-fin de mes
+  meses: 6                 # meses que se muestran en la linea de tiempo (mapa/slider)
+  fichas_meses: 12         # meses que se usan para evaluar las fichas (cultivos de ciclo largo)
+  modo: reciente           # reciente = ultimos 6 meses observados; climatologia = proximos 6 meses con promedio historico por dia del año
+  fin: auto                # auto = ultimo dia con datos completos de NASA POWER
+aptitud:
+  combinacion: minimo      # ley del minimo (como Ecocrop); alternativa: producto
+  umbral_diario: 0.6
+  ventana_agua_dias: 30
+  distancia_rio_riego_m: 500           # dentro de esta distancia se asume agua complementaria
+  aporte_riego_mm_ventana: 40
+regla_permanencia:
+  tolerancia: 0.05                     # +-5 %, sobre grados-dia (ver memoria sec. 4)
+  sensibilidad: [0.025, 0.05, 0.10]

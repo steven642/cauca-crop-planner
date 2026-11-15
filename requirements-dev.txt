@@ -1,0 +1,4 @@
+# Only needed to rebuild the data from scratch (DEM + rivers) and to run tests
+rasterio
+geopandas
+pytest
