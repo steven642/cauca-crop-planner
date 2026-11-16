@@ -7,7 +7,7 @@ Decision-support app that overlays **NASA POWER** climate data, a **Copernicus D
 The interface has an **English / Español** switch in the sidebar (English by default).
 
 ## Live demo
-Public link: _paste the Streamlit Community Cloud URL here_
+https://cauca-crop-planner-h68n3xznrxlhtjbwpzh3vd.streamlit.app
 
 ## What it does
 1. **Climate:** NASA POWER (MERRA-2) daily data, 4 nodes of ~50 km, nearest node per cell, temperature corrected for altitude with the DEM (−0.0065 °C/m).
