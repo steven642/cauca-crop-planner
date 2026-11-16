@@ -45,9 +45,6 @@ python -m src.run --clima data/power_diario.csv --celdas data/celdas.csv
 - Planning mode uses the historical mean of each day of the year; **it is not a forecast**.
 - Soil, slope, frost, pests and markets are not modelled. Care tips are guidance only and must be validated by an agronomist.
 
-## Use of AI
-Claude (Anthropic) assisted in developing the code, the slides and the documentation. The app logic is rule-based; an optional button can explain results with an AI model if `ANTHROPIC_API_KEY` is set.
-
 ## Repository contents
 - `app.py` – Streamlit interface · `src/` – data download, suitability, rotation logic · `data/` – cells and crop catalogue · `salidas/` – precomputed results · `tests/` – unit tests
 - `Cauca_Crop_Planner_NASA_SpaceApps2026.pptx` – project slides · `Cauca_Crop_Planner_codigo.m` – all Python code in one readable file
